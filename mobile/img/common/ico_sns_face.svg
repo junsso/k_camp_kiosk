@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 120 120">
+      <image width="120" height="120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRFO1mY////nazMztblqbbSkaLFhZe/5+rytsHYbIOyVG6l8/X52uDsR2OeeI24YHirFOKtigAAAKtJREFUeNrs10EKwzAMBVHLshM7Ttr737alEJJF6KrR72LmAg9hg1BKRERERERERD/tWYv7bHtB6lYPMhJ+DDMFnM0k8GQaeDER3ETw9cAmeuEIuKngVQXbP8BjClwOZ7gnDbwmEVxUcAa+JbdvuQouKriq4K6CNxE8VL/aVXBTwVkFdxW83Ai/b8NPJ272PbYTMDAwMDAwMDAwMDAwsAYmIiIiIiKimF4CDADpQQVxm62OyQAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <circle id="_120_facebook" data-name="120_facebook" cx="15" cy="15" r="15" fill="url(#pattern)"/>
+</svg>

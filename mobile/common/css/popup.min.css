@@ -1,0 +1,87 @@
+.active-popup {
+  overflow: hidden; }
+
+.popup-wrap .layerpop {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+  max-width: 1080px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s all; }
+  .popup-wrap .layerpop.show {
+    opacity: 1;
+    visibility: visible; }
+  .popup-wrap .layerpop .overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 500;
+    background: rgba(38, 40, 43, 0.6);
+    width: 100%;
+    height: 100%; }
+  .popup-wrap .layerpop .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 501;
+    background: #ffffff;
+    width: calc(100% - 60px);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(69, 76, 83, 0.3); }
+    .popup-wrap .layerpop .popup-content .inner {
+      height: 250px;
+      min-height: 250px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap; }
+    .popup-wrap .layerpop .popup-content .contents {
+      width: 100%;
+      height: calc(100% - 50px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px; }
+.popup-wrap .info-txt-box {
+  text-align: center; }
+  .popup-wrap .info-txt-box .desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6; }
+  .popup-wrap .info-txt-box .img-wrap {
+    width: 50px;
+    margin: 0 auto 20px; }
+
+.flex-btn-wrap {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  border-radius: 0 0 10px 10px;
+  overflow: hidden; }
+  .flex-btn-wrap .col-4 {
+    width: 33.33%; }
+    .flex-btn-wrap .col-4:nth-child(2) .btn {
+      position: relative; }
+      .flex-btn-wrap .col-4:nth-child(2) .btn::before {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 100%;
+        background: #C9CDD2;
+        position: absolute;
+        left: 0; }
+  .flex-btn-wrap .col-6 {
+    width: 50%; }
+  .flex-btn-wrap .col-12 {
+    width: 100%; }
+  .flex-btn-wrap .btn {
+    border-radius: 0;
+    line-height: 48px; }
+
+/*# sourceMappingURL=popup.min.css.map */

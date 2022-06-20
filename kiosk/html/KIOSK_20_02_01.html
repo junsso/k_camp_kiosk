@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>K캠프 키오스크</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../lib/swiper.min.css">
+<link rel="stylesheet" href="../common/css/import.css">
+<script src="../lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <section class="body-wrap sub">
+        <!-- start: header 영역 -->
+        <section class="header type-a">
+            <div class="step-area type-a payment">
+                <ul>
+                    <li class="active">
+                        <div class="inner">
+                            <span class="step">STEP 1</span>
+                            <p class="desc">상품 확인</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner">
+                            <span class="step">STEP 2</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="inner">
+                            <span class="step">STEP 3</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- // end -->
+
+        <!-- start: 본문 영역 -->
+        <section class="body-contain">  
+            
+            <div class="body-cont top">
+                <div class="wrapper type-a">
+                    <div class="prod-box bg-change">
+                        <div class="item-wrap">
+                            <div class="item">
+                                <ul>
+                                    <li>
+                                        <span class="pro-name"><em>1</em> 포카리 스웨트 500ml</span>
+                                    </li>
+                                    <li>
+                                        <p class="price">3,500원</p>
+                                        <p class="price2">4,700원</p>
+                                    </li>
+                                    <li>
+                                        <!-- start: 수량 부족시 proLack 팝업 노출 -->
+                                        <div class="option-value">
+											<div class="qty-controls">
+												<input type="button" value="-" class="qty-button qty-minus">
+                                                <input type="number" value="1" class="qty" readonly>
+												<input type="button" value="+" class="qty-button qty-plus" data-popup="proLack">
+											</div>
+										</div>
+                                        <!-- // End -->
+                                    </li>
+                                    <li>                                        
+                                        <p class="price-sum">7,000원</p>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="del" data-popup="proDelete">삭제</button>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul>
+                                    <li>
+                                        <span class="pro-name"><em>2</em> 코카콜라 500ml</span>
+                                    </li>
+                                    <li>
+                                        <p class="price">3,500원</p>
+                                        <p class="price2">4,700원</p>
+                                    </li>
+                                    <li>
+                                        <div class="option-value">
+											<div class="qty-controls">
+												<input type="button" value="-" class="qty-button qty-minus">
+                                                <input type="number" value="2" class="qty" readonly>
+												<input type="button" value="+" class="qty-button qty-plus">
+											</div>
+										</div>
+                                    </li>
+                                    <li>                                        
+                                        <p class="price-sum">7,000원</p>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="del" data-popup="proDelete">삭제</button>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul>
+                                    <li>
+                                        <span class="pro-name"><em>3</em> 포카칩</span>
+                                    </li>
+                                    <li>
+                                        <p class="price">3,500원</p>
+                                        <p class="price2">4,700원</p>
+                                    </li>
+                                    <li>
+                                        <div class="option-value">
+											<div class="qty-controls">
+												<input type="button" value="-" class="qty-button qty-minus">
+                                                <input type="number" value="1" class="qty" readonly>
+												<input type="button" value="+" class="qty-button qty-plus">
+											</div>
+										</div>
+                                    </li>
+                                    <li>                                        
+                                        <p class="price-sum">7,000원</p>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="del" data-popup="proDelete">삭제</button>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul>
+                                    <li>
+                                        <span class="pro-name"><em>4</em> 새우깡</span>
+                                    </li>
+                                    <li>
+                                        <p class="price">1,500원</p>
+                                    </li>
+                                    <li>
+                                        <div class="option-value">
+											<div class="qty-controls">
+												<input type="button" value="-" class="qty-button qty-minus">
+                                                <input type="number" value="1" class="qty" readonly>
+												<input type="button" value="+" class="qty-button qty-plus">
+											</div>
+										</div>
+                                    </li>
+                                    <li>                                        
+                                        <p class="price-sum">7,000원</p>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="del" data-popup="proDelete">삭제</button>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <ul>
+                                    <li>
+                                        <span class="pro-name"><em>4</em> 신라면</span>
+                                    </li>
+                                    <li>
+                                        <p class="price">900원</p>
+                                    </li>
+                                    <li>
+                                        <div class="option-value">
+											<div class="qty-controls">
+												<input type="button" value="-" class="qty-button qty-minus">
+                                                <input type="number" value="15" class="qty" readonly>
+												<input type="button" value="+" class="qty-button qty-plus">
+											</div>
+										</div>
+                                    </li>
+                                    <li>                                        
+                                        <p class="price-sum">13,500원</p>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="del" data-popup="proDelete">삭제</button>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- // end -->
+
+        <!-- start: 하단 영역 -->
+        <section class="foot-contain choice">
+            <div class="ft-basic-area">
+
+                <div class="ch-btn-wrap pay">
+                    <div class="top flex-wrap mg-top-20">
+                        <p class="sm-desc">결제 금액</p>
+                        <div class="rt-box">
+                            <ul class="partition">
+                                <li><p class="sm-desc">총 <strong>14</strong>개</p></li>
+                                <li><p class="md-desc price"><strong class="lg-desc">50,000</strong>원</p></li>
+                            </ul>                            
+                        </div>
+                    </div>
+                    <div class="middle mg-top-30">
+                        <div class="row">
+                            <div class="col col-2">
+                                <button type="button" class="btn second">이전</button>
+                            </div>
+                            <div class="col col-4">
+                                <button type="button" class="btn br-warning" data-popup="initial">초기화</button>
+                            </div>
+                            <div class="col col-6">
+                                <button type="button" class="btn warning">결제하기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- // End -->           
+
+    </section>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+    <script src="../lib/swiper.js"></script>
+    <script src="../common/js/popup.js"></script>
+    <script src="../common/js/ui.js"></script>
+</body>
+</html>

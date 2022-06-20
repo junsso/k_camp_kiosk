@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>K캠프 키오스크</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../lib/swiper.min.css">
+<link rel="stylesheet" href="../common/css/import.css">
+<script src="../lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <section class="body-wrap sub ver7">
+        <!-- start: header 영역 -->
+        <section class="header">
+            <div class="navigation">
+                <div class="inner">
+                    <button type="button" class="btns back">home</button>
+                    <h2 class="title">회원가입</h2>
+                </div>
+            </div>
+        </section>
+        <!-- // end -->
+
+        <!-- start: 본문 영역 -->
+        <section class="body-contain">  
+            
+            <div class="body-cont top">
+                <div class="wrapper">
+
+                    <div class="join-wrap">
+
+                        <div class="step-box">
+                            <ul>
+                                <li class="com">
+                                    <p>Step 1</p>
+                                    <span>약관동의</span>
+                                </li>
+                                <li class="active">
+                                    <p>Step 2</p>
+                                    <span>회원정보입력</span>
+                                </li>
+                                <li>
+                                    <p>Step 3</p>
+                                    <span>가입완료</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="join-form-box mg-top-30">
+                           <div class="table-wrap">
+                               <table class="table">
+                                    <colgroup>
+                                        <col width="100px">
+                                    </colgroup>
+                                    <tr>
+                                        <th class="star">아이디</th>
+                                        <td>
+                                            <div class="form-wrap type-a">
+                                                <input type="text" class="form-control basic2" placeholder="아이디 입력">
+                                            </div>
+                                            <div class="notice-box mg-top-5">
+                                                <p class="txt possible mg-top-5">사용 가능한 아이디 입니다.</p>
+                                                <p class="txt mg-top-5">이미 사용중인 아이디입니다.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="star">비밀번호</th>
+                                        <td>
+                                            <div class="form-wrap type-a">
+                                                <input type="password" class="form-control basic2" placeholder="비밀번호 입력">
+                                            </div>
+                                            <div class="notice-box ">
+                                                <p class="txt possible mg-top-5">안내 문구 영역입니다.</p>
+                                                <p class="txt mg-top-5">안내 문구 영역입니다.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="star">비밀번호 확인</th>
+                                        <td>
+                                            <div class="form-wrap type-a">
+                                                <input type="password" class="form-control basic2" placeholder="비밀번호 입력">
+                                            </div>
+                                            <div class="notice-box ">
+                                                <p class="txt possible mg-top-5">안내 문구 영역입니다.</p>
+                                                <p class="txt mg-top-5">안내 문구 영역입니다.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="star">휴대폰 번호</th>
+                                        <td>
+                                            <div class="phone-box">
+                                                <div class="row">
+                                                    <div class="col col-4">
+                                                        <input type="text" class="form-control basic2" value="010">
+                                                    </div>
+                                                    <div class="col col-4">
+                                                        <input type="text" class="form-control basic2">
+                                                    </div>
+                                                    <div class="col col-4">
+                                                        <input type="text" class="form-control basic2">
+                                                    </div>
+                                                </div>
+                                                <div class="form-wrap type-a mg-top-10">
+                                                    <button type="button" class="btn br-success sm">인증번호 받기</button>
+                                                </div>
+                                                <div class="form-wrap mg-top-10">
+                                                    <div class="double-wrap">
+                                                        <input type="number" class="form-control basic2">
+                                                        <span class="time">2:20</span>
+                                                        <!-- start: 인증번호 입력시 disabled 클래스 제거 -->
+                                                        <button type="button" class="btn success disabled">인증확인</button>
+                                                        <!-- // End -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="">이메일</th>
+                                        <td>
+                                            <div class="phone-box">
+                                                <div class="inner">
+                                                    <div class="form-wrap type-a">
+                                                        <input type="text" class="form-control basic2" placeholder="이메일 주소 입력">
+                                                    </div>
+                                                    <!-- start: 직접입력시에만 노출 -->
+                                                    <div class="form-wrap type-a mg-top-10">
+                                                        <input type="text" class="form-control basic2" value="@">
+                                                    </div>
+                                                    <!-- // End -->
+                                                    <div class="form-wrap type-a mg-top-10">
+                                                        <select name="" id="selectBox" class="form-control select">
+                                                            <option value="option01" selected="selected">직접입력</option>
+                                                            <option value="option02">naver.com</option>
+                                                            <option value="option03">gmail.com</option>
+                                                            <option value="option04">hanmail.net</option>
+                                                            <option value="option05">nate.com</option>
+                                                            <option value="option06">daum.net</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="basic">기타항목</th>
+                                        <td>
+                                            <div class="chk-box">
+                                                <div class="form-wrap">
+                                                    <input type="radio" name="chk" id="chk1" class="basic-control radio" checked>
+                                                    <label for="chk1" class="basic-radio">선택1</label>
+                                                </div>
+                                                <div class="form-wrap">
+                                                    <input type="radio" name="chk" id="chk2" class="basic-control radio">
+                                                    <label for="chk2" class="basic-radio">선택2</label>
+                                                </div>
+                                                <div class="form-wrap">
+                                                    <input type="radio" name="chk" id="chk3" class="basic-control radio">
+                                                    <label for="chk3" class="basic-radio">선택3</label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                               </table>
+                           </div> 
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- // end -->
+
+        <!-- start: 하단 영역 -->
+        <section class="foot-contain second">
+            <div class="ft-basic-area">
+
+                <div class="ch-btn-wrap pay">
+                    <div class="middle">
+                        <div class="row">
+                            <div class="col col-12">
+                                <button type="button" class="btn success">회원가입</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- // End -->           
+
+    </section>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+    <script src="../lib/swiper.js"></script>
+    <script src="../common/js/popup.js"></script>
+    <script src="../common/js/ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge;Chromeframe=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="generator" content="">
+<meta name="robots" content="ALL">
+<meta property="og:type" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<title>K캠프 키오스크</title>
+<link rel="shortcut icon" href="">
+<link rel="stylesheet" href="../lib/swiper.min.css">
+<link rel="stylesheet" href="../common/css/import.css">
+<script src="../lib/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <section class="body-wrap sub ver3">
+
+        <!-- start: 본문 영역 -->
+        <section class="body-contain">  
+            
+            <div class="body-cont bg-none">
+                <div class="wrapper">
+
+                    <div class="basic-form">
+                        <p class="description"><strong>상품 바코드</strong>를 예시 그림과 같이<br> <strong>리더기에 스캔해주세요</strong></p>
+                        <p class="img-box mg-top-100"><img src="../img/temp/img_qr_scan.png" alt="QR스캔"></p>
+
+                        <div class="row mg-top-150">
+                            <div class="col col-12">
+                                <button type="button" class="btn second qr-num">취소</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+        <!-- // end -->         
+
+    </section>
+
+    <div class="qr-num-lookup">
+        <div class="inner">
+            <div class="conts">
+                <p class="mmd-desc">{예약} 번호를 입력해주세요.</p>
+                <div class="box mg-top-50">
+                    <input type="number" class="form-control" placeholder="숫자를 입력 해주세요">
+                </div>
+                <div class="keypad mg-top-40">
+                    <ul class="row">
+                        <li class="col col-4"><button type="button" class="btn br-success">1</button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">2</button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">3</button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">4</button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">5</button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">6</button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">7</button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">8</button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">9</button></li>
+                        <li class="col col-4"><button type="button" class="btn none"></button></li>
+                        <li class="col col-4"><button type="button" class="btn br-success">0</button></li>
+                        <li class="col col-4"><button type="button" class="btn none"></button></li>                        
+                    </ul>
+                </div>
+
+                <div class="row mg-top-100">
+                    <div class="col col-4">
+                        <button type="button" class="btn second close-btns">취소</button>
+                    </div>
+                    <div class="col col-8">
+                        <!-- start: 번호를 찾을수 없는 경우 codeError 팝업 노출 -->
+                        <button type="button" class="btn success" data-popup="codeError">조회</button>
+                        <!-- // End -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- start:레이어 팝업 -->
+    <div class="popup-wrap"></div>
+    <!-- //end:레이어 팝업 -->
+
+    <script src="../lib/swiper.js"></script>
+    <script src="../common/js/popup.js"></script>
+    <script src="../common/js/ui.js"></script>
+</body>
+</html>

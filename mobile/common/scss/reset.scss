@@ -1,0 +1,105 @@
+@import '_variables';
+%zero-set{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    @extend %zero-set;
+    width: 100%;
+    height: 100%;
+    background-color: #{$base-text-rfcolor};
+    font-family: #{$font-stack};
+    font-size: #{$base-font-size};
+    line-height: #{$base-line-height};
+    word-break: break-all;
+    color: #{$base-text-color};
+    -webkit-overflow-scrolling: touch;
+}
+p, ul, ol, h1, h2, h3, h4, h5, div{
+    @extend %zero-set;
+}
+header, article, section, nav, aside, footer{
+    display: block;
+}
+ul, ol{
+    list-style: none;
+}
+input, select, button, textarea{
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+i, em, address{
+    font-style: normal;
+}
+label, button, input[type=submit]{
+    cursor:pointer;
+    display: inline-block;
+}
+button{
+    background-color: transparent;
+    transition: all .3s ease;
+    &:hover{
+    }
+}
+a{
+    text-decoration: none;
+}
+a, input, button, textarea{
+    border: 0 none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-family: #{$font-stack};  
+    font-size: #{$base-font-size};  
+    color: #{$base-text-color};
+}
+a:active, button:active, input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #{$guide-color};
+    font-weight: 300;
+}
+legend, caption{
+    width: 0;
+    height: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    opacity: 0;
+}
+fieldset{
+    @extend %zero-set;
+    border:0 none;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    text-align: center;
+    font-family: #{$font-stack};
+}
+textarea{
+    resize: none;
+    &:focus{
+        outline: none;
+    }
+}
+figure{
+    text-align: left;
+}
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+     -webkit-appearance: none; 
+     -moz-appearance: none; 
+     appearance: none; } 
+/* 파이어폭스에서의 초기화 방법 */ 
+input[type=number] { 
+    -moz-appearance: textfield; 
+}

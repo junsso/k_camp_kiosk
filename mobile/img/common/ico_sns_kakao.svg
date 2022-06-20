@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 120 120">
+      <image width="120" height="120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNQTFRF+uMAORsbRSgZaU0UyrEHspgK7tcC1r4FgWYRpowMmn8OUTQY4soDXUEWdVoTjXMPvqUIfvkL3gAAAV1JREFUeNrsmNtuxCAMBbEhIYSw5P+/tlWzUittm4IxIK3OPOR1ZBzwxRgAAAAAAAAAAACAEty+WaYn1u7nOkB6BEuvpOz7apffrBcx9It7iXQH733U7l57qfW164NKSNq59pEKWXSzS+Vsk7ya5jqvntlRLVnnreJqMZ0aYlvvJV7HJ1gtzVEkJjcnYIWQk1BMR+MvLfVSaBMHsdi2iR9iMU1KcWuS5d7GCwXx+4utXNxWoDaxl+fUCKJHYzstFre2udI3s7kHcbPqsfC/5qNZLAtZY3rLAm9SmRPrSyPrzIyeR18lqVlvUq0za07IPs7xFm8iiKL63ikUHXfusPhZ/y+R1pkuuDna++LMW8el4p9nHfNpesI/VnjW2kT8+c2767289d9tzYg98evkyIsZy/MNscdg79XccxitvW7x+HCN2aeE+9X1JT/Da9xiAAAAAAAAAACAN+VDgAEAVy8NI6LJWHwAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <circle id="_120_kakako" data-name="120_kakako" cx="15" cy="15" r="15" fill="url(#pattern)"/>
+</svg>

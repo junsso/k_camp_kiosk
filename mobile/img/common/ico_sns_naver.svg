@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 120 120">
+      <image width="120" height="120" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRFAMMA////QNJAv/C/gOGA7/vvEMcQIMsgMM4wz/TPcN1wj+WPUNZQr+yv3/jfn+mfbKyg+QAAAPVJREFUeNrs2EkOwjAQRNHuJHZiSOD+t2VGcgZWuGvz/w558SSEqiXMiIiIiIiIiIhIW+9V8+q5q5+9GZyyCPZFBftJBadRBHtRwT6oYJ9UcMki2M8q2DsV/B2waPg7YOHw51rEw+8Bi4e9V8Gva6GAnwMmgYsKflwLDXwfMBF8yWHwNdUfw+BhXt2pMNiWX999SzhfRPDmhxwG21kF5yKCbVLBNqjg4z1rDY9JBNtJBR8NWHs4JxFsswreH7AIePdaRMC71yIE3huwGNiKCp6SCN4OWBS8uRZh8Ppa/A+euqpx/T7W7/zdTURERERERET07ibAAKSVCcgvc97yAAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <circle id="_120_naver" data-name="120_naver" cx="15" cy="15" r="15" fill="url(#pattern)"/>
+</svg>

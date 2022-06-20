@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="10" viewBox="0 0 10 10">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="check_box" width="10" height="10" transform="translate(38 208)" fill="#377d2f" stroke="#377d2f" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_4" data-name="마스크 그룹 4" transform="translate(-38 -208)" clip-path="url(#clip-path)">
+    <g id="check_1_" data-name="check (1)" transform="translate(38 208)">
+      <path id="패스_11945" data-name="패스 11945" d="M9.707,3.07,4.432,8.345a1,1,0,0,1-1.415,0L.293,5.622A1,1,0,0,1,1.708,4.206L3.724,6.222,8.292,1.655A1,1,0,0,1,9.707,3.07Z" fill="#377d2f"/>
+    </g>
+  </g>
+</svg>
