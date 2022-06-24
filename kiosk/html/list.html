@@ -22,6 +22,9 @@
 
 <style>
 .table td:first-child{ font-weight: 500;}
+.row { margin-left: 0; margin-right: 0;}
+.list { position: relative; line-height: 1.12; padding-left: 8px; padding-bottom: 8px; text-align: left; word-break: keep-all;}
+.list::before { content: ''; display: block; width: 3px; height: 3px; border-radius: 100%; background-color: #000; position: absolute; top: 6px; left: 0;}
 </style>
 
 </head>
@@ -47,7 +50,7 @@
                                 <th scope="col">Depth2</th>
 								<th scope="col">요건</th>
                                 <th scope="col">폴더명</th>
-                                <th scope="col">히스토리</th>
+                                <th scope="col">비고</th>
                                 <th scope="col">완료여부</th>
 							</tr>
 						</thead>
@@ -112,7 +115,7 @@
                                 <td>step3</td>
                                 <td>결제하기</td>
                                 <td><a href="../html/KIOSK_10_02_00.html" target="_blank">KIOSK_10_02_00.html</a></td>
-                                <td></td>
+                                <td><p class="list">취소 버튼 클릭시 data-popup="cancel" 노출</p></td>
                                 <td>o</td>
                             </tr>
                             <tr>
@@ -148,7 +151,11 @@
                                 <td>step1</td>
                                 <td>상품 확인</td>
                                 <td><a href="../html/KIOSK_20_02_01.html" target="_blank">KIOSK_20_02_01.html</a></td>
-                                <td></td>
+                                <td>
+                                    <p class="list">상품 삭제 버튼 클릭시 data-popup="proDelete" 노출</p>
+                                    <p class="list">초기화 버튼 클릭시 data-popup="initial" 노출</p>
+                                    <p class="list">상품 재고부족시(첫번째 상품 plus 버튼 클릭시) data-popup="proLack" 노출</p>
+                                </td>
                                 <td>o</td>
                             </tr>
                             <tr>
@@ -175,7 +182,7 @@
                                 <td></td>
                                 <td></td>
                                 <td><a href="../html/KIOSK_40_01_00.html" target="_blank">KIOSK_40_01_00.html</a></td>
-                                <td></td>
+                                <td><p class="list">예약번호를 조회 할 수 없을때 data-popup="codeError" 노출</p></td>
                                 <td>o</td>
                             </tr>
                             <tr>
@@ -220,7 +227,7 @@
                                 <td></td>
                                 <td></td>
                                 <td><a href="../html/KIOSK_40_01_00.html" target="_blank">KIOSK_40_01_00.html</a></td>
-                                <td></td>
+                                <td><p class="list">예약번호를 조회 할 수 없을때 data-popup="codeError" 노출</p></td>
                                 <td>o</td>
                             </tr>
                             <tr>
@@ -269,7 +276,7 @@
                                 <td>o</td>
                             </tr>
                             <tr>
-                                <td>팝업 경로</td>
+                                <td>레이어팝업 경로</td>
                                 <td></td>
                                 <td></td>
                                 <td>../html/ajax_popup.html</td>
