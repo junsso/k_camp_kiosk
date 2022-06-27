@@ -22,6 +22,9 @@
 
 <style>
 .table td:first-child{ font-weight: 500;}
+.row { margin-left: 0; margin-right: 0;}
+.list { position: relative; line-height: 1.12; padding-left: 8px; padding-bottom: 8px; text-align: left; word-break: keep-all;}
+.list::before { content: ''; display: block; width: 3px; height: 3px; border-radius: 100%; background-color: #000; position: absolute; top: 6px; left: 0;}
 </style>
 
 </head>
@@ -30,7 +33,7 @@
 <div class="content-body" style="max-width: 1200px;margin: auto;">
     <div class="page-title">
         <div class="container" style="background-color: #000;padding: 50px;">
-            <h1 style="color: #fff;">화면리스트</h1>
+            <h1 style="color: #fff;">화면리스트(Mobile)</h1>
         </div>
     </div>
 
@@ -47,7 +50,7 @@
                                 <th scope="col">Depth2</th>
 								<th scope="col">요건</th>
                                 <th scope="col">폴더명</th>
-                                <th scope="col">히스토리</th>
+                                <th scope="col">비고</th>
                                 <th scope="col">완료여부</th>
 							</tr>
 						</thead>
@@ -184,7 +187,9 @@
                                 <td>step 1</td>
                                 <td>주문 확인</td>
                                 <td><a href="../html/COM_20_02_00.html" target="_blank">COM_20_02_00.html</a></td>
-                                <td></td>
+                                <td>
+                                    <p class="list">상품 재고부족시(첫번째 상품 plus 버튼 클릭시) data-popup="proLack" 노출</p>
+                                </td>
                                 <td>o</td>
                             </tr>
                             <tr>
@@ -247,7 +252,8 @@
                                 <td></td>
                                 <td>번호조회</td>
                                 <td><a href="../html/COM_50_01_00.html" target="_blank">COM_50_01_00.html</a></td>
-                                <td></td>
+                                <td>
+                                    <p class="list">예약 번호를 찾을 수 없을 경우 data-popup="codeError" 노출</p></td>
                                 <td>o</td>
                             </tr>
                             <tr>
