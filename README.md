@@ -4,7 +4,7 @@
 
 - html/css/scss/jQuery
 - 캠핑장 예약 및 취소, 상품결제 
-- 모바일 예약 및 취소 
+- 모바일 예약 및 취소 , 상품결제
 
 ## Tree Structure
 - common/
